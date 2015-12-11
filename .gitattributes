@@ -1,0 +1,25 @@
+* text=auto
+
+# These files are text and should be normalized (convert crlf to lf)
+*.cs      eol=crlf
+*.xaml    eol=crlf
+*.csproj  eol=crlf
+*.sln     eol=crlf
+*.tt      eol=crlf
+*.ps1     eol=crlf
+*.cmd     eol=crlf
+*.msbuild eol=crlf
+*.md      eol=crlf
+*.config  eol=crlf
+*.txt     eol=crlf
+*.targets eol=crlf
+*.props   eol=crlf
+.gitignore text
+
+# Images should be treated as binary
+# (binary is a macro for -text -diff)
+*.png     binary
+*.jpeg    binary
+*.bmp     binary
+*.sdf     binary
+
